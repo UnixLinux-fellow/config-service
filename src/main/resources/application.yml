@@ -7,6 +7,9 @@ spring:
         git:
           uri: https://github.com/UnixLinux-fellow/config-repo
           default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
 
 server:
   port: 8888
